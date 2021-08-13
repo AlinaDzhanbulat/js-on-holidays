@@ -1,0 +1,35 @@
+body {
+    margin: auto;
+    width: 500px;
+    margin-top: 20px;
+    /* height: 300px; */
+    /* background-color: rgba(147, 236, 147, 0.582); */
+}
+h3 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+p {
+    margin: 0;
+}
+.div1 {
+    background-color: rgba(216, 252, 216, 0.596);
+    /* border-radius: 3px; */
+    border-top: solid 3px rgba(104, 235, 104, 0.493);
+    padding: 20px;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    top: 0px;
+    color: darkred;
+    right: 15px;
+    display: block;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+
+}

@@ -1,0 +1,45 @@
+.div {
+    margin: 20px auto;
+    padding: 0;
+    width: 200px;
+    height: 300px;
+    border: solid 2px black;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: rgb(58, 57, 57);
+    display: grid;
+
+
+}
+.operator {
+    padding: 1em 1em 1em;
+    background-color: orange;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.itog {
+    padding: 1em 1em 1em;
+    background-color: rgba(206, 201, 201, 0.26);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.inp {
+    padding: 1em 1em 1em;
+    background-color:rgba(206, 201, 201, 0.26);;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.result {
+    color: white;
+}

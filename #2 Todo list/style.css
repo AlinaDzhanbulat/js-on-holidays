@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(82, 141, 141, 0.527);
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1 {
+    color: rgb(245, 245, 245);
+    font-size: 25px;
+}
+.div1 {
+    width: 50em;
+    /* height: 7em; */
+    background-color:rgb(74, 238, 74);
+    /* margin-bottom: 2em; */
+    /* padding-left: 3em 3em 2em 2em; */
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    opacity: 0.9;
+    box-shadow: 0 0 40px white; 
+}
+.div1 div{
+    display: grid;
+    grid-template-columns:3fr 1fr 1fr;
+    grid-column-gap:5px;
+}
+.textIn {
+    text-align: center;
+    height: 2em;
+    outline: none;  
+    border: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.btn{
+    width: 20px;
+    margin-left: 80px;
+}
+.taskItem {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin-bottom: 10px;
+
+}
+.done {
+    text-decoration: line-through;
+}
